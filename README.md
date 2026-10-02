@@ -56,7 +56,7 @@ sql-studies/
 All topics use standard SQL commands supported by **PostgreSQL 17**.
 
 - [x] Environment: PostgreSQL running with Docker Compose
-- [ ] 01 – Basics: `CREATE TABLE`, `INSERT`, `SELECT`, data types
+- [x] 01 – Basics: `CREATE TABLE`, `INSERT`, `SELECT`, data types
 - [ ] 02 – Filtering & sorting: `WHERE`, `AND` / `OR`, `BETWEEN`, `IN`, `LIKE`, `ORDER BY`, `LIMIT` / `OFFSET`
 - [ ] 03 – Aggregations: `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `GROUP BY`, `HAVING`
 - [ ] 04 – Joins: `INNER`, `LEFT`, `RIGHT`, `FULL`
