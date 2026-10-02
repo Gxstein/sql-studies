@@ -46,21 +46,21 @@ Personal repository for learning **SQL** with **PostgreSQL**, running the databa
 sql-studies/
 ├── docker-compose.yml        # PostgreSQL container definition
 ├── .env.example              # Credentials template (copy to .env)
-├── docs/
-│   ├── setup.md              # How the environment was built + troubleshooting
-│   └── docker-cheatsheet.md  # Docker commands used in this repo
-└── exercises/
-    └── 01-basics/            # One folder per topic, one .sql file per exercise
+└── docs/
+    ├── setup.md              # How the environment was built + troubleshooting
+    └── docker-cheatsheet.md  # Docker commands used in this repo
 ```
 
 ## Progress
 
+All topics use standard SQL commands supported by **PostgreSQL 17** (no MySQL-only syntax).
+
 - [x] Environment: PostgreSQL running with Docker Compose
-- [ ] 01 – Basics: `CREATE TABLE`, `INSERT`, `SELECT`
-- [ ] 02 – Filtering & sorting: `WHERE`, `ORDER BY`, `LIMIT`
-- [ ] 03 – Aggregations: `COUNT`, `SUM`, `AVG`, `GROUP BY`, `HAVING`
-- [ ] 04 – Joins: `INNER`, `LEFT`, `RIGHT`
-- [ ] 05 – Subqueries
-- [ ] 06 – Constraints & keys: `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`
+- [ ] 01 – Basics: `CREATE TABLE`, `INSERT`, `SELECT`, data types
+- [ ] 02 – Filtering & sorting: `WHERE`, `AND` / `OR`, `BETWEEN`, `IN`, `LIKE`, `ORDER BY`, `LIMIT` / `OFFSET`
+- [ ] 03 – Aggregations: `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `GROUP BY`, `HAVING`
+- [ ] 04 – Joins: `INNER`, `LEFT`, `RIGHT`, `FULL`
+- [ ] 05 – Subqueries: `IN`, `EXISTS`
+- [ ] 06 – Constraints & keys: `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `NOT NULL`, `CHECK`
 - [ ] 07 – Changing data: `UPDATE`, `DELETE`
-- [ ] 08 – Views & indexes
+- [ ] 08 – Views & indexes: `CREATE VIEW`, `CREATE INDEX`
