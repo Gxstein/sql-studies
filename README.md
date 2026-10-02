@@ -53,7 +53,7 @@ sql-studies/
 
 ## Progress
 
-All topics use standard SQL commands supported by **PostgreSQL 17** (no MySQL-only syntax).
+All topics use standard SQL commands supported by **PostgreSQL 17**.
 
 - [x] Environment: PostgreSQL running with Docker Compose
 - [ ] 01 – Basics: `CREATE TABLE`, `INSERT`, `SELECT`, data types
