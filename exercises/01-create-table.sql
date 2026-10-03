@@ -24,4 +24,5 @@ VALUES
     ('Larissa Carvalho', 'lari@email.com', '1994-03-09', 12777888, 'Laranja');
 
 SELECT nome, data_nascimento FROM usuarios
-
+WHERE data_nascimento >= '2000-01-01'
+ORDER BY data_nascimento ASC;
