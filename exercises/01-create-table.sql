@@ -23,11 +23,5 @@ VALUES
     ('Felipe Almeida', 'felipe@hotmail.com', '2002-06-14', 99555666, 'Cinza'),
     ('Larissa Carvalho', 'lari@email.com', '1994-03-09', 12777888, 'Laranja');
 
-SELECT * FROM usuarios;
-
-SELECT nome, email, data_nascimento, cep FROM usuarios;
-
-
-SELECT * FROM usuarios
-    WHERE cor_favorita = 'Rosa';
+SELECT nome, data_nascimento FROM usuarios
 
