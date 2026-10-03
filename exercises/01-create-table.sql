@@ -19,5 +19,6 @@ SELECT * FROM usuarios;
 
 SELECT nome, email, data_nascimento, cep FROM usuarios;
 
-ALTER TABLE usuarios
-    RENAME COLUMN data_criacao TO data_inscricao;
+
+SELECT * FROM usuarios
+    WHERE email = 'le@gmail.com';
