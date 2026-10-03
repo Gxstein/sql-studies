@@ -31,5 +31,10 @@ UPDATE usuarios
 SET email = 'mariana@gmail.com'
 WHERE id = 4;
 
-SELECT nome, data_nascimento, email FROM usuarios;
+SELECT nome, data_nascimento, email FROM usuarios
+WHERE  id = 4;
 
+DELETE FROM usuarios
+WHERE id = 7;
+
+SELECT nome, data_nascimento, email FROM usuarios
